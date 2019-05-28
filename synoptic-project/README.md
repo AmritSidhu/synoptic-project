@@ -1,24 +1,19 @@
-# README
+# Memebership system synoptic project
+This is my attempt at the project.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting it set up
 
-Things you may want to cover:
+To be able to run the app simple run the following commands:
+```
+bundle install
+rails db:migrate
+rails s
+```
 
-* Ruby version
+Then visit `localhost:3000` in your browser
 
-* System dependencies
+## Running tests
+```
+rails t
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
