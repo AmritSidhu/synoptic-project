@@ -10,11 +10,17 @@
 
       <%= f.label :email %>
       <%= f.email_field :email, class: 'form-control' %>
+      
+      <%= f.label :employeeid %>
+      <%= f.text_field :employeeid, class: 'form-control' %>
 
-      <%= f.label :password %>
+      <%= f.label :mobile %>
+      <%= f.text_field :mobile, class: 'form-control' %>
+
+      <%= f.label :Pin %><p> (last 4 digits of you credit card)
       <%= f.password_field :password, class: 'form-control' %>
 
-      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.label :password_confirmation, "Pin Confirmation" %>
       <%= f.password_field :password_confirmation, class: 'form-control' %>
 
       <%= f.submit "Create my account", class: "btn btn-primary" %>
